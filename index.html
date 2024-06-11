@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/main.css">
+</head>
+
+<body>
+  <div class="menu">
+    <div class="c-container content">
+      <ul>
+        <li>
+          <a href="#">About us</a>
+        </li>
+        <li>
+          <a href="#">Grand</a>
+        </li>
+        <li>
+          <a href="#">Comissions</a>
+        </li>
+        <li>
+          <a href="#">Blub</a>
+        </li>
+        <li>
+          <a href="#">Contact us</a>
+        </li>
+        <li>
+          <a href="#">Careers</a>
+        </li>
+      </ul>
+      <div class="u-grid u-gap-1">
+        <a href="/" class="c-button outlined">Log in</a>
+        <a href="/" class="c-button contained">Sign up</a>
+      </div>
+    </div>
+  </div>
+  <header class="c-container">
+    <div class="content">
+      <a href="/"></a>
+      <div class="u-lg:block u-hidden">
+        <nav>
+          <ul class="u-flex u-gap-8">
+            <li>
+              <a href="/about">About us</a>
+            </li>
+            <li>
+              <a href="/grand-us">Grand us</a>
+            </li>
+            <li>
+              <a href="/comissions">Comissions</a>
+            </li>
+            <li>
+              <a href="/blub">Blub</a>
+            </li>
+            <li>
+              <a href="/contacts">Contact us</a>
+            </li>
+            <li>
+              <a href="/careers">Careers</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="u-flex u-gap-2">
+        <div class="c-button outlined u-lg:flex u-hidden">
+          <svg width="20" height="20" fill="var(--color-pale-lime-green)">
+            <use xlink:href="/images/icons.svg#planet" />
+          </svg>
+          <span class="u-lg:block u-hidden">
+            RU
+          </span>
+        </div>
+        <div class="c-button outlined u-lg:hidden small">
+          <svg width="20" height="20" fill="var(--color-pale-lime-green)">
+            <use xlink:href="/images/icons.svg#planet" />
+          </svg>
+        </div>
+        <div class="u-lg:flex u-gap-2 u-hidden">
+          <a href="/" class="c-button outlined">Log in</a>
+          <a href="/" class="c-button contained">Sign up</a>
+        </div>
+        <div class="u-items-center u-lg:hidden u-flex">
+          <button class="controller" onclick="document.querySelector('.menu').classList.toggle('show')">
+            <svg width="28" height="28" fill="var(--color-white)">
+              <use xlink:href="/images/icons.svg#menu" />
+            </svg>
+            <svg width="28" height="28" fill="var(--color-white)">
+              <use xlink:href="/images/icons.svg#close" />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </header>
+  <main>
+    <div class="c-container content u-height-full grid-cols">
+      <div class="elevator-pitch">
+        <h1>
+          <div>
+            <span>Lorem</span>
+            <span class='u-uppercase'>Ipsu</span>
+          </div>
+          <span class='u-uppercase u-accent'>Open</span>
+        </h1>
+        <h3 class="u-capitalize">Maybe you maybe me</h3>
+        <div></div>
+        <a href="/" class="c-button contained large full">Partner</a>
+      </div>
+      <div class="icons-region">
+        <div class="moving-icons">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <div class=" u-grid u-gap-6">
+        <h2 class="u-center">Blub</h2>
+        <div class="c-blub-list">
+          <div class="c-blub primary">
+            <div class="title">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, quidem?</div>
+            <div class="subtitle">Lorem </div>
+          </div>
+          <div class="c-blub secondary">
+            <div class="title">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, quidem?</div>
+            <div class="subtitle">Lorem </div>
+          </div>
+          <div class="c-blub secondary">
+            <div class="title">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, quidem?</div>
+            <div class="subtitle">Lorem </div>
+          </div>
+          <div class="c-blub secondary">
+            <div class="title">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, quidem?</div>
+            <div class="subtitle">Lorem </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+  <footer>
+    <div class="content c-container">
+      <ul class="c-footer-nav">
+        <li>
+          <a href="#">Terms & Conditions</a>
+        </li>
+        <li>
+          <a href="#">Cookies</a>
+        </li>
+        <li>
+          <a href="#">Contacts</a>
+        </li>
+        <li>
+          <a href="#">Careers</a>
+        </li>
+        <li>
+          <a href="#">Brand Guide</a>
+        </li>
+      </ul>
+      <div>
+        <div>Our social media:</div>
+        <div class="u-flex u-gap-2">
+          <a href="/" class="c-social-media">
+            <svg width="15" height="15" fill="var(--color-dark-blue-lighten)">
+              <use xlink:href="/images/icons.svg#twitter" />
+            </svg>
+          </a>
+          <a href="/" class="c-social-media">
+            <svg width="15" height="15" fill="var(--color-dark-blue-lighten)">
+              <use xlink:href="/images/icons.svg#instagram" />
+            </svg>
+          </a>
+          <a href="/" class="c-social-media">
+            <svg width="15" height="15" fill="var(--color-dark-blue-lighten)">
+              <use xlink:href="/images/icons.svg#youtube" />
+            </svg>
+          </a>
+          <a href="/" class="c-social-media">
+            <svg width="15" height="15" fill="var(--color-dark-blue-lighten)">
+              <use xlink:href="/images/icons.svg#tiktok" />
+            </svg>
+          </a>
+          <a href="/" class="c-social-media">
+            <svg width="15" height="15" fill="var(--color-dark-blue-lighten)">
+              <use xlink:href="/images/icons.svg#telegram" />
+            </svg>
+          </a>
+          <a href="/" class="c-social-media">
+            <svg width="15" height="15" fill="var(--color-dark-blue-lighten)">
+              <use xlink:href="/images/icons.svg#vk" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

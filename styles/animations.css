@@ -1,0 +1,39 @@
+@keyframes scroll-down {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 0 576px;
+  }
+}
+
+@keyframes scroll-right {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 576px 0;
+  }
+}
+
+@keyframes scroll-left {
+  0% {
+    background-position: 576px 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
+
+@keyframes scroll-up {
+  0% {
+    background-position: 0 576px;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
